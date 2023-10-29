@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza tu hoja de estilos externa -->
+    <title>Tu Sitio Web</title>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Lorem Ipsum</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <form class="form-inline d-md-none d-lg-none">
+                <br>
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+              </form>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Dolor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sit</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Amet</a>
+          </li>
+          <!-- Botón para mostrar/ocultar lista (debe estar oculto solo en lg, después en md y sm debe aparecer) -->
+          <li class="nav-item d-lg-none">
+            <button class="nav-link" id="toggleListButton">Mostrar/Ocultar Lista</button>
+          </li>
+        </ul>
+        <!-- Formulario de búsqueda visible en MD y SM -->
+
+      </div>
+      <!-- Formulario de búsqueda visible en LG -->
+      <form class="form-inline d-none d-lg-block ml-auto">
+        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+      </form>
+    </div>
+  </nav>
+  
+  
+
+<!-- Header -->
+<header class="text-center">
+    <div class="container">
+      <h1 class="mt-5">Lorem Ipsum...</h1>
+      <div id="subtitle-carousel" class="carousel slide" data-bs-ride="carousel" data-interval="2000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <p class="mt-3">Subtitulo: Texto 1</p>
+          </div>
+          <div class="carousel-item">
+            <p class="mt-3">Subtitulo: Texto 2</p>
+          </div>
+          <div class="carousel-item">
+            <p class="mt-3">Subtitulo: Texto 3</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</header>
+
+
+<!-- Content - LG -->
+<section class="container mt-5">
+    <div class="row">
+      <div class="col-lg-3">
+        <!-- List Group -->
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action">Opción 1</a>
+          <a href="#" class="list-group-item list-group-item-action">Opción 2</a>
+          <a href="#" class="list-group-item list-group-item-action">Opción 3</a>
+          <a href="#" class="list-group-item list-group-item-action">Opción 4</a>
+        </div>
+      </div>
+      <div class="col-lg-9">
+        <!-- Text Content -->
+        <div class="row">
+          <!-- En lg (col-lg-4), se verán 4 columnas -->
+          <!-- En md (col-md-6), se verán 2 columnas -->
+          <!-- En sm (col-12), se verá 1 columna -->
+          <div class="col-lg-4 col-md-6 col-12">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, hic ad? Totam quibusdam maxime delectus perspiciatis provident? Suscipit incidunt, eius voluptatem voluptate earum doloremque aut, qui architecto, eaque eligendi est.
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus a est culpa adipisci. Assumenda quisquam ut perferendis iure animi neque sint cum sequi? Vel, obcaecati. Ex fuga ipsum excepturi repellendus? 2
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla dolor exercitationem ipsam fugit modi perferendis dolorum culpa, eveniet sit repellat fugiat, ea similique optio laudantium esse molestiae temporibus placeat accusantium? 3
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>¡Trabajemos juntos! Contactame en mis redes sociales:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Diego Bustillo
+            </h6>
+            <p>
+                Nativo digital de 24 años en constante aprendizaje. Construyo el ecosistema web de las marcas que confían en mi trabajo.
+
+
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Intereses
+            </h6>
+            <p>
+              <a href="https://dbustillo11.github.io/" class="text-reset">HTML</a>
+            </p>
+            <p>
+              <a href="https://dbustillo11.github.io/" class="text-reset">CSS</a>
+            </p>
+            <p>
+              <a href="https://dbustillo11.github.io/" class="text-reset">JavaScript</a>
+            </p>
+            <p>
+              <a href="https://dbustillo11.github.io/" class="text-reset">Comunicación Organizacional</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="https://dbustillo11.github.io/" class="text-reset">Porfolio</a>
+            </p>
+            <p>
+              <a href="https://dbustillo11.github.io/" class="text-reset">Curriculum</a>
+            </p>
+            <p>
+              <a href="https://dbustillo11.github.io/" class="text-reset">Trabajos realizados</a>
+            </p>
+            <p>
+              <a href="https://dbustillo11.github.io/" class="text-reset">Ayuda</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+            <p><i class="fas fa-home me-3"></i>Uruguay</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              bustillo.contacto@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +598 98 388 241</p>
+            <p><i class="fas fa-print me-3"></i> ¡Gracias!</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="https://dbustillo11.github.io/">BUSTILLO: Constructor Web</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
